@@ -30,10 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.siticonePanel1 = new Siticone.UI.WinForms.SiticonePanel();
-            this.siticoneButton5 = new Siticone.UI.WinForms.SiticoneButton();
             this.siticoneControlBox2 = new Siticone.UI.WinForms.SiticoneControlBox();
             this.siticoneControlBox1 = new Siticone.UI.WinForms.SiticoneControlBox();
+            this.siticoneButton5 = new Siticone.UI.WinForms.SiticoneButton();
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
+            this.siticoneLabel1 = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticonePanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,22 +48,6 @@
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
             this.siticonePanel1.Size = new System.Drawing.Size(639, 32);
             this.siticonePanel1.TabIndex = 2;
-            // 
-            // siticoneButton5
-            // 
-            this.siticoneButton5.CheckedState.Parent = this.siticoneButton5;
-            this.siticoneButton5.CustomImages.Parent = this.siticoneButton5;
-            this.siticoneButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.siticoneButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneButton5.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton5.HoveredState.Parent = this.siticoneButton5;
-            this.siticoneButton5.Location = new System.Drawing.Point(12, 38);
-            this.siticoneButton5.Name = "siticoneButton5";
-            this.siticoneButton5.ShadowDecoration.Parent = this.siticoneButton5;
-            this.siticoneButton5.Size = new System.Drawing.Size(97, 45);
-            this.siticoneButton5.TabIndex = 9;
-            this.siticoneButton5.Text = "UTG by blukez";
-            this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
             // 
             // siticoneControlBox2
             // 
@@ -94,9 +79,37 @@
             this.siticoneControlBox1.Size = new System.Drawing.Size(30, 29);
             this.siticoneControlBox1.TabIndex = 10;
             // 
+            // siticoneButton5
+            // 
+            this.siticoneButton5.CheckedState.Parent = this.siticoneButton5;
+            this.siticoneButton5.CustomImages.Parent = this.siticoneButton5;
+            this.siticoneButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.siticoneButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton5.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton5.HoveredState.Parent = this.siticoneButton5;
+            this.siticoneButton5.Location = new System.Drawing.Point(12, 38);
+            this.siticoneButton5.Name = "siticoneButton5";
+            this.siticoneButton5.ShadowDecoration.Parent = this.siticoneButton5;
+            this.siticoneButton5.Size = new System.Drawing.Size(97, 45);
+            this.siticoneButton5.TabIndex = 9;
+            this.siticoneButton5.Text = "UTG by blukez";
+            this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
+            // 
             // siticoneDragControl1
             // 
             this.siticoneDragControl1.TargetControl = this.siticonePanel1;
+            // 
+            // siticoneLabel1
+            // 
+            this.siticoneLabel1.AutoSize = false;
+            this.siticoneLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneLabel1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneLabel1.ForeColor = System.Drawing.Color.White;
+            this.siticoneLabel1.Location = new System.Drawing.Point(0, 340);
+            this.siticoneLabel1.Name = "siticoneLabel1";
+            this.siticoneLabel1.Size = new System.Drawing.Size(639, 39);
+            this.siticoneLabel1.TabIndex = 10;
+            this.siticoneLabel1.Text = "THIS AREA IS BEING MADE!\r\n";
             // 
             // Hub
             // 
@@ -104,6 +117,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(640, 391);
+            this.Controls.Add(this.siticoneLabel1);
             this.Controls.Add(this.siticoneButton5);
             this.Controls.Add(this.siticonePanel1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
@@ -122,5 +136,6 @@
         private Siticone.UI.WinForms.SiticoneControlBox siticoneControlBox2;
         private Siticone.UI.WinForms.SiticoneControlBox siticoneControlBox1;
         private Siticone.UI.WinForms.SiticoneDragControl siticoneDragControl1;
+        private Siticone.UI.WinForms.SiticoneLabel siticoneLabel1;
     }
 }

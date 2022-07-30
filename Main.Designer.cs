@@ -56,7 +56,7 @@
             this.siticoneControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.siticoneControlBox1.HoveredState.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.IconColor = System.Drawing.Color.White;
-            this.siticoneControlBox1.Location = new System.Drawing.Point(666, 12);
+            this.siticoneControlBox1.Location = new System.Drawing.Point(696, 12);
             this.siticoneControlBox1.Name = "siticoneControlBox1";
             this.siticoneControlBox1.PressedColor = System.Drawing.Color.Transparent;
             this.siticoneControlBox1.ShadowDecoration.Parent = this.siticoneControlBox1;
@@ -72,7 +72,7 @@
             this.siticonePanel1.Location = new System.Drawing.Point(-9, -6);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(707, 49);
+            this.siticonePanel1.Size = new System.Drawing.Size(738, 49);
             this.siticonePanel1.TabIndex = 1;
             // 
             // siticoneControlBox2
@@ -84,7 +84,7 @@
             this.siticoneControlBox2.FillColor = System.Drawing.Color.Transparent;
             this.siticoneControlBox2.HoveredState.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.IconColor = System.Drawing.Color.White;
-            this.siticoneControlBox2.Location = new System.Drawing.Point(630, 12);
+            this.siticoneControlBox2.Location = new System.Drawing.Point(666, 12);
             this.siticoneControlBox2.Name = "siticoneControlBox2";
             this.siticoneControlBox2.ShadowDecoration.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.Size = new System.Drawing.Size(30, 31);
@@ -99,7 +99,7 @@
             this.siticoneLabel1.ForeColor = System.Drawing.Color.White;
             this.siticoneLabel1.Location = new System.Drawing.Point(16, 12);
             this.siticoneLabel1.Name = "siticoneLabel1";
-            this.siticoneLabel1.Size = new System.Drawing.Size(284, 31);
+            this.siticoneLabel1.Size = new System.Drawing.Size(196, 31);
             this.siticoneLabel1.TabIndex = 1;
             this.siticoneLabel1.Text = "CryT v4";
             this.siticoneLabel1.Click += new System.EventHandler(this.siticoneLabel1_Click);
@@ -135,7 +135,6 @@
             this.fastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.fastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.fastColoredTextBox1.FoldingIndicatorColor = System.Drawing.Color.LimeGreen;
-            this.fastColoredTextBox1.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.fastColoredTextBox1.ForeColor = System.Drawing.Color.White;
             this.fastColoredTextBox1.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.fastColoredTextBox1.IsReplaceMode = false;
@@ -150,7 +149,7 @@
             this.fastColoredTextBox1.RightBracket2 = '}';
             this.fastColoredTextBox1.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.fastColoredTextBox1.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("fastColoredTextBox1.ServiceColors")));
-            this.fastColoredTextBox1.Size = new System.Drawing.Size(572, 210);
+            this.fastColoredTextBox1.Size = new System.Drawing.Size(572, 259);
             this.fastColoredTextBox1.TabIndex = 2;
             this.fastColoredTextBox1.Text = resources.GetString("fastColoredTextBox1.Text");
             this.fastColoredTextBox1.Zoom = 100;
@@ -163,12 +162,13 @@
             this.siticoneButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneButton1.HoveredState.Parent = this.siticoneButton1;
-            this.siticoneButton1.Location = new System.Drawing.Point(12, 269);
+            this.siticoneButton1.Location = new System.Drawing.Point(10, 315);
             this.siticoneButton1.Name = "siticoneButton1";
             this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
             this.siticoneButton1.Size = new System.Drawing.Size(97, 31);
             this.siticoneButton1.TabIndex = 4;
             this.siticoneButton1.Text = "Execute";
+            this.siticoneButton1.Click += new System.EventHandler(this.siticoneButton1_Click);
             // 
             // siticoneButton2
             // 
@@ -178,7 +178,7 @@
             this.siticoneButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton2.ForeColor = System.Drawing.Color.White;
             this.siticoneButton2.HoveredState.Parent = this.siticoneButton2;
-            this.siticoneButton2.Location = new System.Drawing.Point(115, 269);
+            this.siticoneButton2.Location = new System.Drawing.Point(113, 315);
             this.siticoneButton2.Name = "siticoneButton2";
             this.siticoneButton2.ShadowDecoration.Parent = this.siticoneButton2;
             this.siticoneButton2.Size = new System.Drawing.Size(97, 31);
@@ -194,10 +194,10 @@
             this.siticoneButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton3.ForeColor = System.Drawing.Color.White;
             this.siticoneButton3.HoveredState.Parent = this.siticoneButton3;
-            this.siticoneButton3.Location = new System.Drawing.Point(590, 269);
+            this.siticoneButton3.Location = new System.Drawing.Point(590, 315);
             this.siticoneButton3.Name = "siticoneButton3";
             this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
-            this.siticoneButton3.Size = new System.Drawing.Size(97, 31);
+            this.siticoneButton3.Size = new System.Drawing.Size(125, 31);
             this.siticoneButton3.TabIndex = 6;
             this.siticoneButton3.Text = "Inject";
             this.siticoneButton3.Click += new System.EventHandler(this.siticoneButton3_Click);
@@ -210,12 +210,12 @@
             this.siticoneButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton5.ForeColor = System.Drawing.Color.White;
             this.siticoneButton5.HoveredState.Parent = this.siticoneButton5;
-            this.siticoneButton5.Location = new System.Drawing.Point(487, 269);
+            this.siticoneButton5.Location = new System.Drawing.Point(590, 278);
             this.siticoneButton5.Name = "siticoneButton5";
             this.siticoneButton5.ShadowDecoration.Parent = this.siticoneButton5;
-            this.siticoneButton5.Size = new System.Drawing.Size(97, 31);
+            this.siticoneButton5.Size = new System.Drawing.Size(125, 31);
             this.siticoneButton5.TabIndex = 8;
-            this.siticoneButton5.Text = "Repository";
+            this.siticoneButton5.Text = "Refresh List";
             this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
             // 
             // siticoneButton4
@@ -226,12 +226,13 @@
             this.siticoneButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton4.ForeColor = System.Drawing.Color.White;
             this.siticoneButton4.HoveredState.Parent = this.siticoneButton4;
-            this.siticoneButton4.Location = new System.Drawing.Point(218, 269);
+            this.siticoneButton4.Location = new System.Drawing.Point(216, 315);
             this.siticoneButton4.Name = "siticoneButton4";
             this.siticoneButton4.ShadowDecoration.Parent = this.siticoneButton4;
             this.siticoneButton4.Size = new System.Drawing.Size(97, 31);
             this.siticoneButton4.TabIndex = 9;
-            this.siticoneButton4.Text = "Clear";
+            this.siticoneButton4.Text = "Save File";
+            this.siticoneButton4.Click += new System.EventHandler(this.siticoneButton4_Click_1);
             // 
             // siticoneButton6
             // 
@@ -241,12 +242,13 @@
             this.siticoneButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton6.ForeColor = System.Drawing.Color.White;
             this.siticoneButton6.HoveredState.Parent = this.siticoneButton6;
-            this.siticoneButton6.Location = new System.Drawing.Point(321, 269);
+            this.siticoneButton6.Location = new System.Drawing.Point(319, 315);
             this.siticoneButton6.Name = "siticoneButton6";
             this.siticoneButton6.ShadowDecoration.Parent = this.siticoneButton6;
             this.siticoneButton6.Size = new System.Drawing.Size(97, 31);
             this.siticoneButton6.TabIndex = 10;
-            this.siticoneButton6.Text = "Clear";
+            this.siticoneButton6.Text = "Open File";
+            this.siticoneButton6.Click += new System.EventHandler(this.siticoneButton6_Click);
             // 
             // siticoneButton7
             // 
@@ -259,7 +261,7 @@
             this.siticoneButton7.Location = new System.Drawing.Point(590, 50);
             this.siticoneButton7.Name = "siticoneButton7";
             this.siticoneButton7.ShadowDecoration.Parent = this.siticoneButton7;
-            this.siticoneButton7.Size = new System.Drawing.Size(97, 31);
+            this.siticoneButton7.Size = new System.Drawing.Size(127, 24);
             this.siticoneButton7.TabIndex = 11;
             this.siticoneButton7.Text = "Script Hub";
             this.siticoneButton7.Click += new System.EventHandler(this.siticoneButton7_Click);
@@ -271,10 +273,11 @@
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(590, 84);
+            this.listBox1.Location = new System.Drawing.Point(590, 80);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(97, 176);
+            this.listBox1.Size = new System.Drawing.Size(127, 192);
             this.listBox1.TabIndex = 12;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // Main
             // 
@@ -282,7 +285,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(699, 312);
+            this.ClientSize = new System.Drawing.Size(729, 358);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.siticoneButton7);
             this.Controls.Add(this.siticoneButton6);
