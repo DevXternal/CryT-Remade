@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiscordRPC;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,8 @@ namespace CryT_Remade
         public Main()
         {
             InitializeComponent();
+            RPC.rpctimestamp = Timestamps.Now;
+            RPC.InitializeRPC();
         }
 
         private void EasyXploitRadio_CheckedChanged(object sender, EventArgs e)
@@ -41,14 +44,32 @@ namespace CryT_Remade
 
         }
 
-        private void siticoneRadioButton1_CheckedChanged(object sender, EventArgs e)
+        private void siticoneImageButton1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void siticoneImageButton1_Click(object sender, EventArgs e)
+        private void Main_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void siticoneButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void siticoneLabel1_Click(object sender, EventArgs e)
+        {
+            InitializeComponent();
+            RPC2.rpctimestamp = Timestamps.Now;
+            RPC2.InitializeRPC();
+        }
+
+        private void siticoneButton7_Click(object sender, EventArgs e)
+        {
+            Hub openform = new Hub();
+            openform.Show();
         }
     }
 }

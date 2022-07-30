@@ -140,14 +140,14 @@
   </data>
   <data name="fastColoredTextBox1.Text" xml:space="preserve">
     <value>--[[
-Lol, welcome to Beta, i had to REMAKE the entire
+Lol, welcome to CryT, i had to REMAKE the entire
 exploit cause Visual Studio became a bitch and
 decided to corrupt the file :(((((
 
 Whats new:
 New UI
 Text Box Now Has Lua Syntax
-Multi-API Here Les Go
+update logs
 ]]--</value>
   </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

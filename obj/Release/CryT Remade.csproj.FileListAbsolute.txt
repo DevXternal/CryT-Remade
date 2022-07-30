@@ -1,0 +1,22 @@
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\CryT Remade.exe.config
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\CryT Remade.exe
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\CryT Remade.pdb
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\DiscordRPC.dll
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\FastColoredTextBox.dll
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\Newtonsoft.Json.dll
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\ScintillaNET.dll
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\Siticone.UI.dll
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\WeAreDevs_API.dll
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\DiscordRPC.pdb
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\DiscordRPC.xml
+C:\Users\joshm\source\repos\CryT Remade\bin\Release\Newtonsoft.Json.xml
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.csproj.AssemblyReference.cache
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.csproj.SuggestedBindingRedirects.cache
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT_Remade.Hub.resources
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT_Remade.Main.resources
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT_Remade.Properties.Resources.resources
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.csproj.GenerateResource.cache
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.csproj.CoreCompileInputs.cache
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.csproj.CopyComplete
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.exe
+C:\Users\joshm\source\repos\CryT Remade\obj\Release\CryT Remade.pdb
