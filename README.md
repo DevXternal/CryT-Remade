@@ -13,7 +13,7 @@ It was made with Microsoft <a href="https://visualstudio.microsoft.com/downloads
 | ---   | - |
 | Windows 10 And Higher? | Yes |
 | Lua? | Yes |
-| LuaC? | NOPE |
+| LuaC? | Yes |
 | Open Script From File? | Yes |
 ## Help
 - Q: Why does my antivirus detect CryT as a virus?
